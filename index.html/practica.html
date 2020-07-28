@@ -6,6 +6,8 @@
     <meta name="description" content="descripción de mi sitio web">
     <meta name="author" content="Jeareth Venegas">
     <meta name="keywords" content="practica">
+    <link rel="stylesheet" href="style/styles.css" />
+
     <title>Practica 10-WEB I</title>
 </head>
 
@@ -15,68 +17,70 @@
 
 
         <!-- Menu-->
-        <div id="Menu">
-            <img src="../img/logo.png" height="100" width="150">
-            <a href="HOME"> HOME</a>
-            <a href="ABOUT US"> ABOUT US</a>
-            <a href="PORTFOLIO"> PORTFOLIO</a>
-            <a href=SERVICES"> SERVICES</a>
-            <a href="BLOG"> BLOG</a>
-            <a href="CONTACT US"> CONTACT US</a>
-        </div>
-        <hr>
-        <!--header-->
-        <div id="Header"><img src="../img/img.jpg"></div>
+        <div id="Menu" class = "clearfix block-border">
+            <div id="logo">
+            <img src="../img/logo.png" alt="logo">
+            </div>
 
-        <hr>
+            <div id= "nav">
+                <a href="mailto:info@CreativeStudio.com" id="nav-email">info@CreativeStudio.com</a>
+                <ol id="list" class = "clearfix">
+                    <li><a href="HOME"> HOME</a></li>
+                    <li><a href="ABOUT US"> ABOUT US</a></li>
+                    <li><a href="PORTFOLIO"> PORTFOLIO</a></li>
+                    <li><a href="SERVICES"> SERVICES</a></li>
+                    <li><a href="BLOG"> BLOG</a></li>
+                    <li><a href="CONTACT US"> CONTACT US</a></li>
+                </ol>
+            </div>
+        </div>
+        
+        <!--header-->
+
+        <div id="Header" class= "block-border"> <img src="../img/img.jpg"> </div>
+
+        
 
         <!--Información principal-->
         <div id="Main-Info">
 
-            <img src="../img/arrow.png" height="10px" width="10px">
-            <p><strong>ABOUT US</strong></p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing</p>
-            <p>elit. Eaque error veritatis itaque quae et odio cum</p>
-            <p>inventore earum saepe, corporis sapiente ex numquam</p> 
-            <p>rem, excepturi iusto illum iure maxime. Quisquam?</p>
-        
-            <img src="../img/arrow.png" height="8px" width="8px"> <a href="READ">READ</a>
-            <br>
-            <br>
-            <img src="../img/arrow.png" height="10px" width="10px">
-            <p><strong>OUR BENEFITS</strong></p>
+            <!-- <img src="../img/arrow.png" alt = "arrow"> -->
 
-            <img src="../img/check.png" height="10px" width="10px">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>Velit, molestiae neque dolore non vitae aliquid doloribus</p>
-            <p>rem alias quis ab nihil recusandae doloremque.</p>
+            <div class = "box">
+            <h2>ABOUT US</h2>
 
-            <img src="../img/check.png" height="10px" width="10px">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>Velit, molestiae neque dolore non vitae aliquid doloribus</p>
-            <p>rem alias quis ab nihil recusandae doloremque.</p>
-        
-            <img src="../img/check.png" height="10px" width="10px">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>Velit, molestiae neque dolore non vitae aliquid doloribus</p>
-            <p>rem alias quis ab nihil recusandae doloremque.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. Praesent eget consequat libero. </p>
+            
+            <a href="Read">READ</a>
+            </div>
 
-            <img src="../img/arrow.png" height="10px" width="10px">
-            <p><strong>TESTIMONIALS</strong></p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> 
-            <p>Ullam placeat nam dolor repellendus vel harum, cum, cumque</p> 
-            <p>laborum nemo hic esse! Sunt dicta necessitatibus molestias ut </p>
-            <p>libero rerum doloremque aperiam! Lorem ipsum dolor sit amet </p>
-            <p>consectetur adipisicing elit.</p>
+            <!-- <img src="../img/arrow.png" height="10px" width="10px"> -->
 
-            <a href="Rafi, Graphicsfuel.com"><em>Rafi, Graphicsfuel.com</em></a>
+            <div class= box>
+            <h2>OUR BENEFITS</h2>
+            <!-- <img src="../img/check.png" height="10px" width="10px"> -->
+            <ol id= "benefits-list"> 
+                <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa.</p></li>
+                <li><p>Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. Praesent eget consequat</p></li>
+                <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa.</p></li>
+            </ol>
+            </div>
+
+            <div class="box">
+				<h2>TESTIMONIALS</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta
+					posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem
+					lobortis scelerisque.</p>
+				<span>Rafi, Graphicsfuel.com</span>
+			</div>
+
+
         </div>
         <hr>
 
 
         <!--Portfolio-->
         <div id="portfolio">
-            <img src="../img/arrow.png" height="10px" width="10px">
             <p><strong>OUR PORTFOLIO</strong></p>
             <img src="../img/portfolio1.jpg">
             <img src="../img/portfolio-2.jpg">
