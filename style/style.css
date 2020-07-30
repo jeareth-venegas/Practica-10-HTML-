@@ -10,6 +10,31 @@ body{
     font-family: arial, helvetica, sans-serif;
 }
 
+h2{
+    font-size: 18px;
+    color: #090909
+}
+
+h2{
+    border-bottom: 7px solid #090909;
+    padding-bottom: 11px;
+    padding-left: 20px;
+}
+
+/*Hay varias maneras de colocar la flecha en cada h2:
+-Colocar la imagen posicionada al lado del h2
+-background-image
+-pseudo elementos after y before*/
+
+h2{
+    background-image: url('../img/arrow.png');
+    background-repeat: no-repeat;
+    /*colocando el no-repeat se evita que se rellene 
+    todo el espacio del h2 con flechas*/
+    background-position: center left;
+    /*colocar medidas de px en X y Y*/
+}
+
 /*ayudas*/
 
 
@@ -25,7 +50,8 @@ body{
     margin: 0 auto;
 
 }
-/*Se crea una clase para el borde y así se puede reutilizar*/
+/*Se crea una clase para el borde y así se puede reutilizar
+-Con BEM sería block-border*/
 .border{
     padding: 19px 0 14px;
     border-bottom: 1px solid #c0c0c0;
@@ -101,9 +127,21 @@ right:0;
     text-decoration: none;
 }
 
+
 /*main info*/
 
+#Main-Info p{
+    font-size: 12px;
+    color:#5d5d5d;
+}
+
+
 .p-box{
-    width: 175px;
+    width: 280px;
     float: left;
 }
+
+.p-box + .p-box{
+    margin-left: 60px;
+}
+
