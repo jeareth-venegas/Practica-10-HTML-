@@ -1,21 +1,37 @@
 
 /*generales*/
 
+html{
+    border-top: 17px solid black;
+}
+
 body{
+    margin:0;
     font-family: arial, helvetica, sans-serif;
 }
 
+/*ayudas*/
 
 
-
-
-/*header*/
-
-#header{
-    margin: 19px 0 14px;
+#clearfix::after{
+    content: "";
+    clear: both;
+    display:table;
 }
 
+#container{
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
 
+}
+/*Se crea una clase para el borde y así se puede reutilizar*/
+.border{
+    padding: 19px 0 14px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+/*header*/
 
 #logo{
     float: left;
@@ -28,20 +44,35 @@ body{
     float: right;
     width: 656px;
 }
+/*position: relative; del nav-link-email para el nav*/
 
 
-/*BEM*/
+/* Nomenclatura BEM*/
+
+#nav-link-email{
+    font-size: 12px;
+    color: #999898;
+    text-decoration: none;
+    float: right;
+}
+/* Para el nav-link-email
+position: absolute;
+top: o;
+right:0;
+*/
 
 #nav-list{
     list-style:none;
     margin: 45px 0 0;
     padding: 0;
+    
 }
-
+/*no colocar estos dos nav-list juntos, desordena todo*/
 #nav-list li{
     float:left;
     margin-left: 40px;
 }
+
 
 /*remove margin left. Pseudo selector first child
 
@@ -68,22 +99,11 @@ body{
     font-weight: bold;
     color: #fe9b00;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
+/*main image*/
 
-/*ayudas*/
-
-
-#clearfix::after{
-    content: "";
-    clear: both;
-    display:table;
-}
-
-#container{
-    width: 960px;
-    height: 100px;
-    margin: 0 auto;
+#Main-Image{
+    
 
 }
