@@ -101,9 +101,9 @@ right:0;
     text-decoration: none;
 }
 
-/*main image*/
+/*main info*/
 
-#Main-Image{
-    
-
+.p-box{
+    width: 175px;
+    float: left;
 }
