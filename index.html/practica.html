@@ -42,7 +42,7 @@
         
 
         <!--Información principal-->
-        <div id="Main-Info">
+        <div id="Main-Info" class = "clearfix">
 
             <!-- <img src="../img/arrow.png" alt = "arrow"> -->
 
@@ -51,15 +51,15 @@
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. Praesent eget consequat libero. </p>
             
-            <a href="Read">READ</a>
+            <a href="Read" class = "read-link-arrow">READ</a>
             </div>
 
-            <!-- <img src="../img/arrow.png" height="10px" width="10px"> -->
+            <!-- <img src="../img/arrow.png"> -->
 
             <div class= p-box>
             <h2>OUR BENEFITS</h2>
             <!-- <img src="../img/check.png" height="10px" width="10px"> -->
-            <ol id="p-box-benefits-list"> 
+            <ol id="p-box-benefits-list" class = "clearfix"> 
                 <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa.</p></li>
                 <li><p>Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. Praesent eget consequat</p></li>
                 <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa.</p></li>
@@ -71,7 +71,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta
 					posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem
 					lobortis scelerisque.</p>
-                <a href="Rafi, Graphicsfuel.com">Rafi, Graphicsfuel.com</a>
+                <a href="Rafi, Graphicsfuel.com" id= "p-box-link">Rafi, Graphicsfuel.com</a>
                 
 			</div>
 
@@ -81,41 +81,77 @@
         
         <!--Portfolio-->
         <div id="portfolio">
-            <br>
-            <br>
-            <p><strong>OUR PORTFOLIO</strong></p>
-            <img src="../img/portfolio1.jpg">
-            <img src="../img/portfolio-2.jpg">
-            <img src="../img/portfolio-3.jpg">
-            <img src="../img/portfolio-4.jpg">
-            <hr>
+            
+            <h2>OUR PORTFOLIO</h2>
+
+            <div class="portfolio-img1">    
+                <a><img src="../img/portfolio1.jpg"></a>
+            </div>
+
+            <div class="portfolio-img2">
+                <a><img src="../img/portfolio-2.jpg"></a>
+            </div>
+            <div class="portfolio-img3">
+                <a><img src="../img/portfolio-3.jpg"></a>
+            </div>
+
+            <div class="portfolio-img4">
+                <a><img src="../img/portfolio-4.jpg"></a>
+            </div>
             
         </div>
+
+
+
         <!--Blog-->
-        <div id="Blog">
-            <img src="../img/arrow.png" height="8px" width="8px">
-            <p><strong>BLOG UPDATES</strong></p>
+        <div id="Blog-Updates">
+            <!--<img src="../img/arrow.png" height="8px" width="8px">-->
+            <h3>BLOG UPDATES</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio alias ducimus deserunt iure hic itaque inventore quisquam, suscipit voluptatem a fuga voluptates sapiente, nemo ullam eaque et. A, nostrum quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates consequatur minus est impedit! Fuga natus laudantium voluptatibus tempore blanditiis porro quaerat tempora, nobis qui, in sit. Aspernatur harum iure sequi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. At excepturi fugiat cum asperiores quis optio eveniet, odio voluptatibus cupiditate beatae consectetur, facere quos dignissimos doloribus repellendus modi vero magni deserunt?</p>
 
-            <img src="../img/arrow.png" height="8px" width="8px">
-            <p><strong>CONECT WITH US</strong></p>
-            <img src="../img/icono-tw.png"  height="25px" width="25px">
-            <img src="../img/iocno-blue.png"  height="25px" width="25px">
-            <img src="../img/icono-gray.png"  height="25px" width="25px">
-            <img src="../img/icono-orange.png"  height="25px" width="25px">
-            <hr>
+        </div>
+
+
+        <div id="ConectW-Us">
+            <!--<img src="../img/arrow.png" height="8px" width="8px">-->
+            <h3>CONECT WITH US</h3>
+                <div>
+                    <a href="" target="_blank">
+                        <img src="../img/icono-tw.png" alt="twitter">
+                    </a>
+                </div>
+
+                <div>
+                    <a  href="" target="_blank">
+                        <img src="../img/iocno-blue.png" alt="facebook">
+                    </a>
+                </div>
+
+                <div>
+                    <a href="" target="_blank">
+                        <img src="../img/icono-gray.png" alt="">
+                    </a>
+                </div>
+
+                <div>
+                    <a href="" target="_blank">
+                        <img src="../img/icono-orange.png" alt="">
+                    </a>
+                </div>
         </div>
 
         <!--footer-->
-        <div id="footer">
-            <a href="Home"> Home</a>
-            <a href="About us"> About us</a>
-            <a href="Portfolio"> Portfolio</a>
-            <a href=Services"> Services</a>
-            <a href="Blog"> Blog</a>
-            <a href="Contact us"> Contact us</a>
+        <div id="footer" class= "footer-list">
+
+            <li><a href="Home" target="_blank"> Home</a></li>
+            <li><a href="About us" > About us</a></li>
+            <li><a href="Portfolio"> Portfolio</a></li>
+            <li><a href=Services"> Services</a></li>
+            <li><a href="Blog"> Blog</a></li>
+            <li><a href="Contact us"> Contact us</a></li>
+
             <p>2010 CreativeStudio All Rights Reserved</p>
-            <img src="../img/logo.png" height="80" width="120">
+            <img src="../img/logo.png" class="footer-logo">
             
         </div>
     </div>
