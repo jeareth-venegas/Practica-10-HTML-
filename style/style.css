@@ -20,6 +20,7 @@ h2{
     border-bottom: 7px solid #090909;
     padding-bottom: 11px;
     padding-left: 20px;
+    
 }
 
 /*Hay varias maneras de colocar la flecha en cada h2:
@@ -41,6 +42,13 @@ p{
     color:#5d5d5d;
     line-height: 20px;
 }
+
+ol li p {
+    line-height: 15px;
+}
+
+
+
 /*ayudas*/
 
 
@@ -69,9 +77,24 @@ p{
     font-weight: bold;
     text-decoration: none;
     padding-left: 23px;
+    position: relative;
+    /*background-image: url('../img/arrow.png');
+    background-repeat: no-repeat;
+    background-position: 0px 3px;*/
 }
 
+.read-link-arrow img{
+    width: 9px;
+    position: absolute;
+    left: 0px;
+    top: 3px;
+}
 
+.read-link-arrow:hover{
+    /*para añadirle la línea bajo el link
+    cuando el mouse se posicione sobre la palabra*/
+    text-decoration: underline;
+}
 
 
 /*header*/
