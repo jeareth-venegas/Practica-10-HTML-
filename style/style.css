@@ -213,6 +213,10 @@ right:0;
 
 /*Portfolio*/
 
+#our-portfolio{
+    float: right;
+}
+
 .portfolio-img{
     width: 214.5px;
     float: left;
@@ -221,7 +225,7 @@ right:0;
 }
 
 .portfolio-img{
-    margin-left: 34px;
+    margin-left: 21px;
 }
 
 .portfolio-img a img{
@@ -244,6 +248,10 @@ right:0;
 
 }
 
+#conect-with-us a img {
+    float: left;
+    padding-right: 10px;
+}
 
 /*Footer*/
 
