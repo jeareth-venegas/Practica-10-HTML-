@@ -1,0 +1,16 @@
+/* Helpers */
+.menu{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.block-border{
+	padding: 20px 0 15px;
+	border-bottom: 1px solid #c0c0c0;
+}

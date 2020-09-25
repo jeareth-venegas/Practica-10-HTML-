@@ -1,9 +1,20 @@
+//partial
+
+@import './sass/global';
+@import './sass/header';
+@import './sass/content';
+
+
+//variables
 $colorW: #090909;
 $colorW2: #999898;
 $colorMainC: #5d5d5d;
 $colorList: #fe9b00;
 $border:#090909;
 $border2: #c0c0c0;
+
+$font-size: 12px;
+
 
 body{
 	font-family: Arial, Helvetica, sans-serif;
@@ -55,7 +66,7 @@ display: table;
 }
 
 #nav-email{
-	font-size: 13px;
+	font-size: $font-size;
 	color: $colorW2;
 	text-decoration: none;
 	position: absolute;
@@ -69,35 +80,39 @@ display: table;
 	padding: 0;
 }
 
-#list li{
-	float: left;
+
+//N E S T I N G
+
+#list {
+	li{
+		float: left;
+	}
 }
 
-/* Remove margin left */
-/* #nav-list li:first-child{
-	margin-left: 0;
-}
-.remove-ml{
-	margin-left: 0;
-} */
 
-#list li + li{
-	margin-left: 64px;
+#list {
+	li + li{
+		margin-left: 64px;
+	}
 }
 
-#list a{
-	font-size: 12px;
-	font-weight: bold;
-	color: $colorList;
-	text-decoration: none;
-	text-transform: uppercase;
+#list {
+	a{
+		font-size: $font-size;
+		font-weight: bold;
+		color: $colorList;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
 }
 
 /* Main content */
-#mainContent p{
-	color: $colorMainC;
-	font-size: 12px;
-	line-height: 20px;
+#mainContent {
+	p{
+		color: $colorMainC;
+		font-size: 12px;
+		line-height: 20px;
+	}
 }
 
 #benefits-list{

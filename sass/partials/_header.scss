@@ -1,0 +1,53 @@
+// variables
+$colorList: #fe9b00;
+$font-size: 12px;
+
+/* Header */
+#logo{
+	float: left;
+	width: 183px;
+}
+
+#nav{
+	float: right;
+	width: 655px;
+	position: relative;
+}
+
+#nav-email{
+	font-size: $font-size;
+	color: #999898;
+	text-decoration: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#list{
+	list-style: none;
+	margin: 45px 0 0 0;
+	padding: 0;
+}
+
+#list {
+	li{
+		float: left;
+	}
+}
+
+
+#list {
+	li + li{
+		margin-left: 64px;
+	}
+}
+
+#list {
+	a{
+		font-size: $font-size;
+		font-weight: bold;
+		color: $colorList;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+}
