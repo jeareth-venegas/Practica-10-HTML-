@@ -12,12 +12,5 @@ html{
 }
 
 h2{
-	font-size: 18px;
-	color: $colorW;
-	border-bottom: 6px solid $border;
-	padding-bottom: 12px;
-	padding-left: 20px;
-	background-image: url('../img/arrow.png');
-	background-repeat: no-repeat;
-	background-position: 0 7px;
+	@include h2;
 }

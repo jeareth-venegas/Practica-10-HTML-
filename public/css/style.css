@@ -40,7 +40,7 @@ h2 {
   position: relative; }
 
 #nav-email {
-  font-size: 13px;
+  font-size: 12px;
   color: #999898;
   text-decoration: none;
   position: absolute;
@@ -55,13 +55,6 @@ h2 {
 #list li {
   float: left; }
 
-/* Remove margin left */
-/* #nav-list li:first-child{
-	margin-left: 0;
-}
-.remove-ml{
-	margin-left: 0;
-} */
 #list li + li {
   margin-left: 64px; }
 
